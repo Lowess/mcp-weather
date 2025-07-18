@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "/app",
+                "weather-server"
+            ]
+        }
+    }
+}
