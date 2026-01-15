@@ -5,8 +5,7 @@ from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server with documentation enabled
 mcp = FastMCP(
-    "weather",
-    title="Weather MCP Server",
+    "Weather MCP Server",
     description="A Model Context Protocol server providing weather alerts and forecasts using the National Weather Service API",
     version="1.0.0",
     docs_url="/docs",
